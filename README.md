@@ -1,14 +1,15 @@
 # COVID-19-hospitalization-management-system
-Database Topic:
-COVID-19 hospitalization management system
+Database Topic: COVID-19 hospitalization management system
 
 Database Purpose
+
 With the massive amount of COVID-19 patients occupying hospital beds, the purpose of the database is
 to collect health information of inpatients, improve prognosis, modify treatment strategies, and adjust
 admission standards in order to manage COVID-19 patients more efficiently. This database will be used
 by both physicians and hospital administrative staff.
 
 Business Problems Addressed
+
 ● Provide patients’ information to physicians to give appropriate treatments and further reduce the
 COVID-19 death rate.
 ● Allow medical care providers to record and compare different treatment results, which helps to
@@ -25,6 +26,7 @@ medical resources more fairly for COVID-19.
 the spread.
 
 Business Rules
+
 ● Assume all patients have already been hospitalized.
 ● Assume each patient has only one current address.
 ● Assume there can be one or more patients in each address.
@@ -49,6 +51,7 @@ Business Rules
 ● Patients less than 12 years old are not admitted due to the lack of specific equipment for kids.
 
 Design Requirements
+
 ● Eliminate any multi-valued and/or composite attribute.
 ● Remove any repeating groups.
 ● Avoid a many-to-many relationship.
